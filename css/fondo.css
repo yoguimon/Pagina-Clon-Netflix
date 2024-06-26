@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('../img/netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+
+    position: relative;
+    z-index: 2;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
